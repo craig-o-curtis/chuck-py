@@ -6,7 +6,7 @@ Simple Python script that fetches Chuck Norris jokes from api.chucknorris.io.
 
 ```bash
 # Create and activate virtual environment
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate  # macOS/Linux
 # .venv\Scripts\activate  # Windows
 
@@ -30,5 +30,5 @@ pytest
 ## Run
 
 ```bash
-python chuck.py
+python3 chuck.py
 ```
